@@ -41,3 +41,29 @@
 // var name = "Vasiliy";
 // admin = name;
 // console.log(admin);
+
+
+
+
+//****** data types (6), typeof 4 lesson ******//
+// var number = 1; //number
+// var string = "text"; //string
+// var years = true; // boolean
+// var noName = null; // null
+// var date; // undefined  
+// //end primitive
+// var user = {name: "Vasya"}; //object
+
+// console.log(number, string, years, noName, date, user);
+
+
+//******************************HOMEWORK******************************//
+console.log(
+	typeof 1, //number 
+	typeof "text", //string
+	typeof true, //boolean
+	typeof null, //object "error" this null
+	typeof undefined, // undefined
+	typeof {userName: "Kolya"},  //object
+	typeof function(){} //function error this object 
+);
