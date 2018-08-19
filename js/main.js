@@ -118,3 +118,24 @@
 // var a = 2;
 // var x = 1 + (a *= 2);
 // console.log(x);
+
+
+
+
+//****** Operators comparison and boolean values 6 lesson ******//
+// var a = 2;
+// var b = 10;
+// var c = 1;
+// console.log(b >= c);
+// console.log("a" != "A");
+// console.log(null >= "0");
+
+//******************************HOMEWORK******************************//
+// console.log(1 < 2); //true
+// console.log("1" < 2); //true
+// console.log("1" < "2"); //true
+// console.log(undefined >= 1) //false
+// console.log(undefined === null) //false
+// console.log(undefined == null) //true
+// console.log(null == 0); //false
+// console.log(null === 0); //false
