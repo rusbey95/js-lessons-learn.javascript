@@ -139,3 +139,33 @@
 // console.log(undefined == null) //true
 // console.log(null == 0); //false
 // console.log(null === 0); //false
+
+
+
+
+//****** Bitwise Operators 7 lesson ******//
+// a = 0;  // 00000000000000000000000000000000
+// a = 1;  // 00000000000000000000000000000001
+// a = 2;  // 00000000000000000000000000000010
+// a = 3;  // 00000000000000000000000000000011
+// a = 255;// 00000000000000000000000011111111
+
+
+
+
+//****** alert, prompt, confirm  8 lesson ******//
+
+//alert
+// alert("Hello");
+
+//prompt
+// var years = prompt("How old are you?", "");
+// alert("You " + "are " + years + "!");
+
+//confirm
+// var isAdmin = confirm("You admin ?");
+// alert(isAdmin);
+
+//******************************HOMEWORK******************************//
+// var name = prompt("What is you name?", "");
+// alert("You name " + name);
