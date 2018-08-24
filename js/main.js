@@ -154,7 +154,6 @@
 
 
 //****** alert, prompt, confirm  8 lesson ******//
-
 //alert
 // alert("Hello");
 
@@ -169,3 +168,130 @@
 //******************************HOMEWORK******************************//
 // var name = prompt("What is you name?", "");
 // alert("You name " + name);
+
+// var userName = confirm("You Nik?");
+// alert(userName);
+
+// var password = prompt("please your password", "");
+// alert("You password " + password);
+
+// var youName = prompt("You name", "");
+// alert("You " + youName);
+
+// var question = confirm("you problem?");
+// alert(question);
+
+// var youName = prompt("What is you name?", "");
+// alert("You name " + youName);
+
+
+
+
+//****** Conditional operators: if, "?"  9 lesson ******//
+// var years = prompt("In which year did the specification ECMA-262 5.1 appear?", "");
+// if (years != 2011) alert("No!");
+
+// var currentYears = prompt("what is the current year?", "");
+// if(currentYears == 2018){
+// 	alert("yes!");
+// } else if(currentYears < 2018){
+// 	alert("few");
+// } else{
+// 	alert("a lot of");
+// }
+
+// var firstName = prompt("what surname does Bill", "");
+// if(firstName == "Geyts"){
+// 	alert("Yes!");
+// } else{
+// 	alert("No!!!");
+// }
+
+// var test = prompt("10 + 1", "");
+// if(test < 11){
+// 	alert("few");
+// } else if(test > 11){
+// 	alert("a lot of");
+// } else{
+// 	alert("Yes=)");
+// }
+
+// var access;
+// var year = prompt("Сколько Вам лет?", "");
+// if (year >= 14){
+// 	access = true;
+// }else {
+// 	access = false;
+// }
+// alert(access);
+
+// var age = prompt("Сколько Вам лет?", "");
+// access = age > 14 ? true : false;
+// alert(access);
+
+// var age = prompt("Возраст ", 18);
+// var message = (age < 3) ? "Привет малыш" :
+// 	(age < 18) ? "Привет" :
+// 	(age < 100) ? "Здравствуй" :
+// 	"Какой необычный возраст";
+// alert(message);
+
+// var year = prompt("Возраст", "");
+// if (year > 10){
+// 	alert("Уже большой");
+// } else if (year < 10){
+// 	alert("Еще малыш");
+// } else{
+// 	alert("То что нам нужно");
+// }
+
+// var year = prompt("Возраст", "");
+// var message = (year > 10) ? "Уже большой" :
+// 	(year == 0) ? "Почему ничего не ввел" :
+// 	(year < 10) ? "Ещё малыш" :
+// 	"То что нам нужно";
+// alert(message);
+
+//******************************HOMEWORK******************************//
+// if("0"){
+// 	alert("Hello");
+// }
+
+// var official = prompt("«Каково «официальное» название JavaScript?» ?", "");
+// if(official == "ECMAScript"){
+// 	alert("Верно");
+// }else{
+// 	alert("Не знаете? «ECMAScript»!");
+// }
+
+// var namber = prompt("Сейчас проверим", "");
+// if(namber > 0){
+// 	alert("1");
+// }else if(namber < 0){
+// 	alert("-1");
+// }else{
+// 	alert("0");
+// }
+
+// var authorization = prompt("Кто пришел?", "");
+// if(authorization == "Админ"){
+// 	var password = prompt("Ваш пароль?", "");
+// 	if(password == null){
+// 		alert("Вход отменен");
+// 	}else if(password == "Чёрный Властелин"){
+// 		alert("Добро пожаловать!");
+// 	}else{
+// 		alert("Пароль не верен");
+// 	}
+// }else if(authorization == null){
+// 	alert("Вход отменен");
+// }else{
+// 	alert("Я Вас не знаю");
+// }
+
+// var a = prompt("Введите число", "")
+// if(a + b < 4){
+// 	result = "Мало";
+// }else{
+// 	result = "Много"
+// } 
