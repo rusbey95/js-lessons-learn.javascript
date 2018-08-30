@@ -295,3 +295,93 @@
 // }else{
 // 	result = "Много"
 // } 
+
+
+
+
+
+//****** Logical Operators ||(или) &&(и) !(не) 10 lesson ******//
+
+// ***** ***** || (или) ***** *****
+
+// alert(true || true); //true
+// alert(true || false); //true
+// alert(false || true); //true
+// alert(false || false); //false
+
+// if(1 || 0){
+// 	alert(true); //true
+// }
+// if(0 || null){
+// 	alert("yes"); //false
+// }
+
+// var hour = prompt("Когда вы собираетесь нас посетить?","");
+// if(hour < 10 || hour > 18){
+// 	alert("офис до 10 или после 18 закрыт");
+// }
+
+// var a;
+// true || (a = 1);
+// alert(a);
+
+// var a;
+// false || (a = 1);
+// alert(a);
+
+// ***** ***** &&(и) ***** *****
+
+// alert(false && true); //false
+// alert(false && false); //false
+// alert(true && true); //true
+
+// alert(1 && 0); //0
+// alert(2 && 4); //4
+// alert(0 && 1); //0
+// alert(null & "text"); //0
+
+// alert(1 && 2 && 3 && undefined); //undefined
+// alert(0 && 2 && 20 && 21); //0
+// alert(1 && 34 && "text" && 10) //10
+
+// alert(2 || 0 && 4); //2
+// alert(0 && 2 || 3); //3
+// alert(10 && 0 && 2 || 15) // 15
+
+// var x = 10;
+// (x > 0) && alert("Больше"); 
+
+// ***** ***** !(не) ***** *****
+// alert(!true); //false
+// alert(!0); //true
+
+
+
+
+
+//******************************HOMEWORK******************************//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//****** lesson ******//
+//******************************HOMEWORK******************************//
